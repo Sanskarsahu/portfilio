@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa6'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa6'
 import { motion } from 'framer-motion'
 export default function Social() {
     const social =[
