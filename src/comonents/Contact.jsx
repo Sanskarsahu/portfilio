@@ -7,7 +7,7 @@ export default function Contact() {
   const contact= [{
     icon:SiGmail,
     contact:"sanskarsahu54@gmail.com",
-    link:"https://mail.google.com/mail/?view=cm&fs=1&to=sanskarsahu54@gmail.com",
+    link:"mailto:sanskarsahu54@gmail.com",
     delay:0.5
   },{
     icon:FaPhone,
