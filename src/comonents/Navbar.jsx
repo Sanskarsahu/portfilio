@@ -54,8 +54,8 @@ export default function Navbar() {
         <>
         {isCliked ? <Sidebar setClicked={setClicked} nav={nav} /> :
           
-           <div className="h-20 w-full  bg-white fixed z-[1] flex items-center px-10 drop-shadow-xl rounded-full  mt-5 ">
-            <div className="text-xl font-bold ">portfilio</div>
+           <div className="h-20 w-full  bg-white fixed z-[1] flex items-center px-10 drop-shadow-xl rounded-full gap-10  mt-5 ">
+            <div className="text-xl font-bold ">Sanskar Sahu</div>
             <button onClick={handleclick} className='bg-black'><RiMenu2Line className={`fixed top-4 right-10 text-5xl rounded-full p-3 hover:bg-gray-200 hover:drop-shadow-2xl `} /></button>
 
           </div>}
