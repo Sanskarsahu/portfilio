@@ -8,12 +8,12 @@ export default function Contact() {
     icon:SiGmail,
     contact:"sanskarsahu54@gmail.com",
     link:"mailto:sanskarsahu54@gmail.com",
-    delay:0.5
+    delay:0.2
   },{
     icon:FaPhone,
     contact:"+91 9569557945",
     link:"tel:+919569557945",
-    delay:1
+    delay:0.4
   }]
   return (
     <div className='text-center mt-20  h-auto' id='contact'>
