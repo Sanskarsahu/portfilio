@@ -5,9 +5,9 @@ import Social from './Social'
 export default function Intro() {
   return (
     <div className='h-full  flex flex-col items-center justify-center gap-7 overflow-hidden'>
-    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:1.5}} className="md:text-6xl text-4xl font-extrabold "><h1>Hello!</h1></motion.div>
-    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:2}}  className="md:text-6xl text-4xl font-bold "><h1>I am Sanskar Sahu</h1></motion.div>
-    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:2.5}}  className="md:text-4xl text-3xl flex gap-1 font-semibold ">
+    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:0.5}} className="md:text-6xl text-4xl font-extrabold "><h1>Hello!</h1></motion.div>
+    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:1}}  className="md:text-6xl text-4xl font-bold "><h1>I am Sanskar Sahu</h1></motion.div>
+    <motion.div animate={{opacity: 1}} initial={{opacity: 0}} transition={{duration:0.5 , delay:1.5}}  className="md:text-4xl text-3xl flex gap-1 font-semibold ">
     A 
     <TypewriterComponent
         options={{
