@@ -7,50 +7,50 @@ import { SiExpress, SiNextdotjs } from 'react-icons/si';
 const skills=[{
     titel:"html",
     icon:FaHtml5,
-    delay:0.5,
+    delay:0.1,
     color:"#fbbf24"
 },
 {
     titel:"css",
     icon:FaCss3Alt,
-    delay:1,
+    delay:0.2,
     color:"#2563eb"
 },
 {
     titel:"Javascript",
     icon:IoLogoJavascript,
-    delay:1.5,
+    delay:0.3,
     color:"#fcd34d"
     
 },
 {
     titel:"React.js",
     icon:FaReact,
-    delay:2,
+    delay:0.4,
     color:"#2563eb"
 },
 {
     titel:"Node.js",
     icon:FaNodeJs,
-    delay:2.5,
+    delay:0.5,
     color:"#65a30d"
 },
 {
     titel:"Express.js",
     icon:SiExpress,
-    delay:3,
+    delay:0.6,
     color:"black"
 },
 {
     titel:"MongoDb",
     icon:DiMongodb,
-    delay:3.5,
+    delay:0.7,
     color:"#65a30d"
 },
 {
     titel:"Next.js",
     icon:SiNextdotjs,
-    delay:4,
+    delay:0.8,
     color:"black"
 }
 ]
