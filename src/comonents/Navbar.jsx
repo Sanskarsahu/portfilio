@@ -38,7 +38,7 @@ export default function Navbar() {
       animate={{ y: 10 }}
       transition={{ duration: 1 }}
     >
-      <div className="text-xl font-bold ">portfilio</div>
+      <div className="text-xl font-bold ">Sanskar Sahu</div>
       <div className="flex items-center flex-row gap-2">
         {nav.map((r) => (
           <Link to={r.link} spy={true}
